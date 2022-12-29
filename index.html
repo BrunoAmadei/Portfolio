@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>FantomB</title>
+
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <!--FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/6f1169f369.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2 class="logo">
+               Meu site
+            </h2>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container" id="sobre-mim">
+
+        <div class="profile">
+            <div class="image">
+                <img src="./src/images/perfil.jpeg" alt="perfil-photo">
+            </div>
+        </div>
+
+        <div class="text">
+            <h2>Sobre mim</h2>
+            <p>
+                Olá, me chamo Bruno Amadei, tenho 24 anos. Este site foi projetado para
+                funcionar de maneira diferente para telas menores, sinta-se livre para testa-lo. Entrei a pouco tempo na
+                área do desenvolvimento para aplicações web, estou sempre buscando mais conhecimento e melhorando
+                conforme o tempo.
+
+            </p>
+            <p>
+                Aqui você encontrará alguns projetos de estudo e meios para me contatar!
+            </p>
+        </div>
+    </main>
+
+    <div class="divisor"></div>
+
+    <!---- PROJECTS AREA ---->
+
+    <section class="projects-container">
+
+        <h2 class="sub-title" id="projetos">Projetos</h2>
+
+        <button class="btn-arrow btn-prev">
+            <i class="fa-solid fa-angle-left"></i>
+        </button>
+
+        <ul class="proj-list">
+
+            <li class="card active">
+
+                <div class="image">
+                    <img src="./src/images/spotify-clone.png" alt="spotify-clone" class="proj-img">
+                </div>
+
+                <div class="description">
+                    <h3>Spotify Clone</h3>
+                    <p>
+                        Este projeto foi feito utilizando Bootstrap
+                    </p>
+                </div>
+            </li>
+
+            <li class="card ">
+                <div class="image">
+                    <img src="src/images/museu-nacional.png" alt="spotify-clone" class="proj-img">
+                </div>
+
+                <div class="description">
+                    <h3>Museu Nacional</h3>
+                    <p>
+                        Texto descrevendo como foi feito o projeto Museu Nacional e qual sua finalidade
+                    </p>
+                </div>
+            </li>
+
+            <li class="card ">
+
+                <div class="image">
+                    <img src="src/images/mata-mosquito.png" alt="spotify-clone" class="proj-img">
+                </div>
+
+                <div class="description">
+                    <h3>Mata Mosquito</h3>
+                    <p>
+                        Texto resumindo como foi feito a aplicação utilizando JavaScript
+                    </p>
+
+                </div>
+            </li>
+
+            <li class="card">
+
+                <div class="image">
+                    <img src="./src/images/pokedex.png" alt="pokedex-image" class="proj-img">
+                </div>
+
+                <div class="description">
+                    <h3>Pokédex</h3>
+                    <p>
+                        Este projeto busca informações de uma Api para trazer algumas informações e as
+                        imagens dos pokemons.
+                    </p>
+                </div>
+            </li>
+
+            <li class="card ">
+                <div class="image">
+                    <img src="src/images/lista_tarefas.png" alt="spotify-clone" class="proj-img">
+                </div>
+
+                <div class="description">
+                    <h3>Lista de tarefas</h3>
+                    <p>
+                        Feito para estudar a guardar, editar e apagar informações gravadas usando Local Storage.
+                    </p>
+                </div>
+            </li>
+
+            <li class="card ">
+
+                <div class="image">
+                    <img src="src/images/mata-mosquito.png" alt="spotify-clone" class="proj-img">
+                </div>
+
+                <div class="description">
+                    <h3>Mata Mosquito</h3>
+                    <p>
+                        Texto resumindo como foi feito a aplicação utilizando JavaScript
+                    </p>
+
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-arrow btn-next">
+            <i class="fa-solid fa-angle-right"></i>
+        </button>
+    </section>
+
+    <div class="divisor"></div>
+
+    <section class="final">
+        <h2>Habilidades</h2>
+        <div class="text">
+
+            <ul>
+                <li>Potencial para aprendizagem de novas técnicas e atribuições</li>
+                <li>Potencial para aprendizagem de novas tarefas e funções</li>
+                <li>Potencial para aprendizagem de novas funções na área</li>
+            </ul>
+
+            <h3>Disponivel para Oportunidades</h3>
+            <a href="mailto:brunoamadei98@gmail.com" class="email" id="contato">
+                brunoamadei98@gmail.com
+            </a>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-menu">
+            <h2>
+                <a href="mailto:brunoamadei98@gmail.com">&copy;Bruno Amadei</a>
+            </h2>
+
+            <ul class="footer-list">
+                <li><a href="https://www.linkedin.com/in/bruno-amadei-4b5061250"><i
+                            class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
