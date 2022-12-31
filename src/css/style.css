@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 60.5%;
+}
+
+:root {
+    --golden: #daa520;
+    --deep-golden: #b88009;
+    --platinum: #b8cad4;
+    --deep-platinum: #9eadb6;
+    --black: #000000;
+    --light-black: #000000ec;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--light-black);
+    font-family: 'Montserrat';
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--platinum);
+}
+
+h2{
+    font-size: 2rem;
+}
+
+p {
+    color: var(--deep-platinum);
+}
+
+/* --- HEADER --- */
+header {
+    height: 100%;
+    background-color: var(--black);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 9vh;
+}
+
+.logo  {
+    text-shadow: 0 0 20px var(--deep-platinum);
+    color: var(--platinum);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.logo:hover {
+    cursor: pointer;
+    color: var(--golden);
+    transition: all 0.3s;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 2px;
+    margin-left: 4em;
+}
+
+.nav-list li a {
+    font-size: 1.4rem;
+    color: var(--platinum);
+}
+
+.nav-list li a:hover {
+    color: var(--golden);
+    transition: all 0.3s;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 30px;
+    height: 2px;
+    background: var(--deep-platinum);
+    margin: 8px;
+    transition: 0.3s;
+}
+
+/* --- MAIN --- */
+
+.container {
+    margin-top: 5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .image {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: var(--golden);
+    box-shadow: 0 0 20px var(--deep-golden);
+
+}
+
+.profile .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1.4px solid var(--deep-platinum);
+}
+
+.text {
+    color: var(--platinum);
+    text-align: left;
+    width: 700px;
+    font-size: 1.94rem;
+    margin-top: auto;
+    margin-left: 150px;
+}
+
+.text h2 {
+    text-shadow: 0 0 15px var(--deep-golden);
+    color: var(--golden);
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 1.5em;
+}
+
+.divisor {
+    width: 100%;
+    border: 1px dotted var(--platinum);
+    margin: 4em 0 2em 0;
+}
+
+
+/*---- PROJECTS ----*/
+
+.projects-container {
+    width: 100%;
+    position: relative;
+}
+
+.sub-title {
+    text-align: center;
+    text-shadow: 0 0 15px var(--deep-golden);
+    letter-spacing: 1.5px;
+    color: var(--golden);
+    margin: 1.2em 0 1.2em 0;
+}
+
+.proj-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1366px;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2em;   
+}
+
+.proj-list .card {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 2.5rem;
+}
+
+.proj-list .image {
+    height: 235px;
+    width: 400px;
+    padding: 2px;
+    border-radius: 15px;
+    background-color: var(--deep-golden);
+}
+
+.image .proj-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.description {
+    width: 390px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.description h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--platinum);
+}
+
+.btn-arrow {
+    height: 80px;
+    width: 50px;
+    position: absolute;
+    color: var(--deep-golden);
+    background-color: transparent;
+    border: 1px solid var(--black);
+    border-radius: 14px;
+    font-size: 40px;
+    display: none;
+}
+
+.btn-prev {
+    left: 6%;
+    top: 40%;
+}
+
+.btn-next {
+    right: 6%;
+    top: 40%;
+}
+
+.btn-arrow:hover {
+    cursor: pointer;
+    text-shadow: 0 0 20px var(--black);
+    transition: ease-in-out 0.5s;
+}
+
+/*---- Finals ----*/
+.final {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.final h2 {  
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-shadow: 0 0 15px var(--deep-golden);
+    color: var(--golden);
+    margin-top: 1em;
+}
+
+.final .text {
+    margin: 0.7em auto;
+    max-width: 780px;
+    padding: 1.5rem;
+}
+
+.text ul li {
+    padding: 0.8rem;
+
+}
+
+.text h3 {
+    font-size: 2rem;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--platinum);
+    text-shadow: 0 0 10px var(--deep-platinum);
+}
+
+.text .email {
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--deep-golden);
+}
+
+.text .email:hover {
+    transition: ease-in 0.5s;
+    text-shadow: 0 0 12px var(--golden);
+}
+
+/*---FOOTER ---*/
+footer {
+    padding: 10px;
+    height: 100%;
+    background-color: var(--black);
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+.footer-menu h2 {
+    font-weight: lighter;
+    text-shadow: 0 0 20px var(--deep-platinum);
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.footer-menu a:hover {
+    transition: all 0.5s;
+    color: var(--golden);
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-list li {
+    margin-left: 32px;
+    font-size: 3rem;
+}
+
+.footer-list li a {
+    color: var(--deep-golden);
+}
+
+.footer-list li a:hover {
+    cursor: pointer;
+    text-shadow: 0 0 15px var(--deep-golden);
+    opacity: 0.6;
+    transition: all 0.51s;
+}
