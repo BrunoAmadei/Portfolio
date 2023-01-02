@@ -8,7 +8,7 @@
 
 html {
     scroll-behavior: smooth;
-    font-size: 60.5%;
+    font-size: 55.5%;
 }
 
 :root {
@@ -133,8 +133,7 @@ nav {
     color: var(--platinum);
     text-align: left;
     width: 700px;
-    font-size: 1.94rem;
-    margin-top: auto;
+    font-size: 1.62rem;
     margin-left: 150px;
 }
 
@@ -205,7 +204,7 @@ nav {
     width: 390px;
     text-align: center;
     margin-top: 20px;
-    font-size: 1.3rem;
+    font-size: 1.45rem;
 }
 
 .description h3 {
