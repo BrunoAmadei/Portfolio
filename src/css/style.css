@@ -264,6 +264,11 @@ nav {
     padding: 1.5rem;
 }
 
+.text ul{
+    position: relative;
+    left: 18%;
+}
+
 .text ul li {
     padding: 0.8rem;
 
