@@ -7,11 +7,11 @@ class MobileNav {
         this.handleClick = this.handleClick.bind(this)
     }
 
-    animateLinks(){
-        this.navLinks.forEach((link, index)=>{
-           link.style.animation 
-            ? (link.style.animation = "") 
-            : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`) 
+    animateLinks() {
+        this.navLinks.forEach((link, index) => {
+            link.style.animation
+                ? (link.style.animation = "")
+                : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`)
         })
     }
     handleClick() {
@@ -39,4 +39,48 @@ const mobileNavbar = new MobileNav(
 )
 
 mobileNavbar.init()
+
+/*---------CARDS SLIDE------------*/
+const prev = document.querySelector('.btn-prev')
+const next = document.querySelector('.btn-next')
+const cards = document.querySelectorAll('.card')
+
+
+const maxCards = cards.length
+let currentCard = 0
+
+function indexCards() {
+    if (currentCard >= maxCards) {
+        currentCard = 0
+    }
+
+    if (currentCard < 0) {
+        currentCard = maxCards - 1
+    }
+}
+
+prev.addEventListener('click', () => {
+    if (prev) {
+        currentCard -= 1;
+    }
+    indexCards()
+
+    cards.forEach(card => {
+        card.classList.remove('active')
+    })
+    cards[currentCard].classList.add('active')
+})
+
+next.addEventListener('click', () => {
+    if (next) {
+        currentCard += 1
+    }
+    indexCards()
+
+    cards.forEach(card => {
+        card.classList.remove('active')
+    })
+    cards[currentCard].classList.add('active')
+})
+
 
