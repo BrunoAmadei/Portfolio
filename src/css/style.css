@@ -112,8 +112,8 @@ nav {
 }
 
 .profile .image {
-    height: 280px;
-    width: 280px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     padding: 2px;
     background-color: var(--golden);
@@ -215,6 +215,20 @@ nav {
     text-transform: uppercase;
     color: var(--platinum);
 }
+
+.proj-link{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.proj-link h3:hover{
+    color: var(--deep-golden);
+    text-shadow: 0 0 20px var(--golden);
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+
+
 
 .btn-arrow {
     height: 80px;
