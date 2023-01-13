@@ -1,8 +1,7 @@
 # Portfolio
  Site para demonstrar alguns projetos 
 
-
-![image](https://user-images.githubusercontent.com/110541376/212327193-63aeea3f-1e7a-4c79-ab0e-059c1ae0517c.png)
+![image](https://user-images.githubusercontent.com/110541376/212336443-029faff5-b7ef-48f2-8ffa-79ce8f17ec6d.png)
 
 ## Mobile
-![mobile-view_resized (1)](https://user-images.githubusercontent.com/110541376/212334992-7fc7594a-0fc9-4dfc-8dee-3652b25aa794.jpg)
+![image](https://user-images.githubusercontent.com/110541376/212336941-345ec915-918e-4d71-8ff1-784c16cb2fa3.png) ![image](https://user-images.githubusercontent.com/110541376/212337154-c7cfaa8f-8aef-4694-b4ad-866569906686.png)
