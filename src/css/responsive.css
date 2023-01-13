@@ -103,8 +103,9 @@
     }
 
     .proj-list .image {
+        position: relative;
         height: 235px;
-        width: 350px;
+        width: 362px;
         padding: 2px;
         border-radius: 15px;
         background-color: #b88009;
