@@ -14,7 +14,7 @@ Procurei incluir a maioria dos meus conhecimentos neste site até ter um resulta
 * _JavaScript_
 
 ## 📄Licença
-Este projeto está sob a licença [_MIT License_](https://github.com/BrunoAmadei/pokedex/blob/main/LICENSE)
+Este projeto está sob a licença [_MIT License_](https://github.com/BrunoAmadei/Portfolio/blob/main/LICENSE)
 
 ## ✒️Autor
 Um desenvolvedor - Trabalho Inicial - Bruno Amadei
